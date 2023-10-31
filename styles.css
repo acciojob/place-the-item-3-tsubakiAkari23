@@ -1,2 +1,16 @@
 
 /* Your CSS Code here. */
+* {
+    box-sizing: border-box;
+}
+
+.holder {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.holder div {
+    width: 5rem;
+}
